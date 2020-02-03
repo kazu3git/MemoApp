@@ -1,8 +1,7 @@
-import React from 'react';
-import { StyleSheet, View } from 'react-native';
-
-import Appbar from './src/components/Appbar';
-import MemoDetailScreen from './src/screens/MemoDetailScreen';
+import React from "react";
+import { StyleSheet, View } from "react-native";
+import Appbar from "./src/components/Appbar";
+import MemoDetailScreen from "./src/screens/MemoDetailScreen";
 
 export default function App() {
   return (
@@ -16,10 +15,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFDF6',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingTop: 78,
-  },
-
+    backgroundColor: "#FFFDF6",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingTop: 78
+  }
 });

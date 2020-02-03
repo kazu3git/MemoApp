@@ -1,25 +1,22 @@
-import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import React from "react";
+import { StyleSheet, View } from "react-native";
 
-import MemoList from '../components/MemoList';
-import CircleButton from '../elements/CircleButton';
+import MemoList from "../components/MemoList";
+import CircleButton from "../elements/CircleButton";
 
 class MemoListScreen extends React.Component {
   render() {
-    return(
+    return (
       <View style={styles.container}>
-      <MemoList />
-      <CircleButton>+</CircleButton>
+        <MemoList />
+        <CircleButton name="plus" />
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: '100%',
-  },
+  container: { flex: 1, width: "100%" }
 });
 
 export default MemoListScreen;
